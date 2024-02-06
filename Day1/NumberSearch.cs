@@ -5,8 +5,6 @@ namespace advent_of_code_2023;
 
 public partial class NumberSearch : ISolve
 {
-    [GeneratedRegex("\\d")]
-    private static partial Regex DigitRegex();
 
     [GeneratedRegex("\\d|one|two|three|four|five|six|seven|eight|nine")]
     private static partial Regex DigitStringRegexLeft();
